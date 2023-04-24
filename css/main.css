@@ -28,16 +28,22 @@ body {
   display: flex;
   background-color: #fff;
   padding: 20px;
+  justify-content: space-between;
+  align-items: center;
 }
 .quiz-app .quiz-info .category {
-  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 .quiz-app .quiz-info .category > h3,
 .quiz-app .quiz-info .count > h3 {
   display: inline-block;
   font-size: 20px;
 }
-.quiz-app .quiz-info .category > button {
+.quiz-app .quiz-info .category > button,
+.quiz-app .quiz-info .reload > button {
   background-color: #fff;
   border: 1px solid var(--mainColor);
   padding: 5px 9px;
@@ -48,7 +54,8 @@ body {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-.quiz-app .quiz-info .category > button:hover {
+.quiz-app .quiz-info .category > button:hover,
+.quiz-app .quiz-info .reload > button:hover {
   background-color: var(--mainColor);
   color: #fff;
   transition: 0.5s;
@@ -58,7 +65,8 @@ body {
   -o-transition: 0.5s;
 }
 .quiz-app .quiz-info .category > button,
-.quiz-app .quiz-info .count > span {
+.quiz-app .quiz-info .count > span,
+.quiz-app .quiz-info .reload > button {
   color: var(--mainColor);
   font-weight: bold;
   letter-spacing: -1px;
@@ -67,7 +75,6 @@ body {
   font-size: 18px;
 }
 .quiz-app .quiz-info .count {
-  flex: 1;
   text-align: right;
 }
 .quiz-app .quiz-area {
@@ -191,16 +198,21 @@ body {
     text-align: center;
     gap: 10px;
   }
-  .quiz-app .quiz-info .category {
+  .quiz-app .quiz-info .category,
+  .quiz-app .quiz-info .reload {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    align-items: unset;
   }
   .quiz-app .quiz-info .count {
     text-align: center;
   }
   .quiz-area h2 {
     font-size: 19px;
+  }
+  .quiz-app .quiz-info i {
+    display: none;
   }
 }
 
@@ -213,17 +225,15 @@ body {
     text-align: center;
     gap: 10px;
   }
-  .quiz-app .quiz-info .category {
+  .quiz-app .quiz-info .category,
+  .quiz-app .quiz-info .reload {
     display: flex;
     flex-direction: column;
     gap: 8px;
     width: 100%;
+    align-items: unset;
   }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .quiz-app .quiz-info .category > button:not(:last-child) {
-    margin-right: 3px;
+  .quiz-app .quiz-info i {
+    display: none;
   }
 }

@@ -23,6 +23,7 @@ function getQ() {
   const jsRequest = new XMLHttpRequest();
 
   htmlRequest.onreadystatechange = function () {
+    reloadPage();
     htmlBtn.onclick = () => {
       htmlBtn.style.cssText =
         "pointer-events: none;background-color:#0075ff;color:#fff;";
@@ -148,6 +149,13 @@ function getQ() {
   htmlRequest.send();
   cssRequest.send();
   jsRequest.send();
+
+  function reloadPage() {
+    const reload = document.getElementById("reloadBtn");
+    reload.onclick = () => {
+      location.reload();
+    };
+  }
 }
 
 getQ();
