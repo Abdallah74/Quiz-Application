@@ -1,0 +1,73 @@
+[
+  {
+    "quiz_name": "JavaScript",
+    "question": "What is the correct syntax for creating a new Date object?",
+    "options": [
+      "Date newDate = new Date();",
+      "var date = new Date();",
+      "var newDate = Date();",
+      "var newDate = new Date;"
+    ],
+    "answer": "var date = new Date();"
+  },
+  {
+    "question": "What is the correct way to write a JavaScript array?",
+    "options": [
+      "var colors = 'red', 'green', 'blue';",
+      "var colors = (1:'red', 2:'green', 3:'blue');",
+      "var colors = {1:'red', 2:'green', 3:'blue'};",
+      "var colors = ['red', 'green', 'blue'];"
+    ],
+    "answer": "var colors = ['red', 'green', 'blue'];"
+  },
+  {
+    "question": "Which operator is used to compare two values for equality, but not type?",
+    "options": ["===", "==", "!=", "!=="],
+    "answer": "=="
+  },
+  {
+    "question": "What is the output of the following code: console.log(typeof null);",
+    "options": ["object", "undefined", "null", "number"],
+    "answer": "object"
+  },
+  {
+    "question": "What is the correct way to write an if statement in JavaScript?",
+    "options": [
+      "if x = y { //code here }",
+      "if (x == y) { //code here }",
+      "if (x = y) then { //code here }",
+      "if x == y then { //code here }"
+    ],
+    "answer": "if (x == y) { //code here }"
+  },
+  {
+    "question": "What is the output of the following code: console.log(2 + '2');",
+    "options": ["NaN", "22", "undefined", "4"],
+    "answer": "22"
+  },
+  {
+    "question": "Which JavaScript keyword is used to declare a variable?",
+    "options": ["var", "let", "const", "both var and let"],
+    "answer": "both var and let"
+  },
+  {
+    "question": "What is the output of the following code: console.log(typeof undefined);",
+    "options": ["null", "undefined", "object", "number"],
+    "answer": "undefined"
+  },
+  {
+    "question": "What is the correct way to write a JavaScript function?",
+    "options": [
+      "myFunction = function() { //code here }",
+      "myFunction() { //code here }",
+      "function = myFunction() { //code here }",
+      "function myFunction() { //code here }"
+    ],
+    "answer": "function myFunction() { //code here }"
+  },
+  {
+    "question": "What is the output of the following code: console.log(2 * '2');",
+    "options": ["NaN", "4", "22", "undefined"],
+    "answer": "4"
+  }
+]

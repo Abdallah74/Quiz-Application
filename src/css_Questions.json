@@ -1,0 +1,63 @@
+[
+  {
+    "quiz_name": "CSS",
+    "question": "What does CSS stand for?",
+    "options": [
+      "Computer Style Sheets",
+      "Colorful Style Sheets",
+      "Cascading Style Sheets",
+      "Creative Style Sheets"
+    ],
+    "answer": "Cascading Style Sheets"
+  },
+  {
+    "question": "Which CSS property is used to change the background color?",
+    "options": ["color", "background-color", "bgcolor", "bg-color"],
+    "answer": "background-color"
+  },
+  {
+    "question": "Which CSS property is used to change the text color of an element?",
+    "options": ["text-color", "font-color", "color", "text-style"],
+    "answer": "color"
+  },
+  {
+    "question": "Which CSS property is used to change the font of an element?",
+    "options": ["font-style", "font-family", "font-size", "font-weight"],
+    "answer": "font-family"
+  },
+  {
+    "question": "Which CSS property is used to specify the spacing between lines?",
+    "options": ["line-spacing", "spacing", "height", "line-height"],
+    "answer": "line-height"
+  },
+  {
+    "question": "Which property is used to change the font size of text?",
+    "options": ["font-style", "font-family", "font-size", "font-weight"],
+    "answer": "font-size"
+  },
+  {
+    "question": "Which property is used to change the color of text?",
+    "options": ["background-color", "font-color", "text-color", "color"],
+    "answer": "color"
+  },
+  {
+    "question": "Which property is used to change the background color of an element?",
+    "options": ["color", "background-color", "bgcolor", "bg-color"],
+    "answer": "background-color"
+  },
+  {
+    "question": "Which property is used to change the font family of text?",
+    "options": ["font-style", "font-size", "font-family", "font-weight"],
+    "answer": "font-family"
+  },
+  {
+    "question": "Which property is used to change the spacing between letters?",
+    "options": [
+      "letter-spacing",
+      "word-spacing",
+      "text-spacing",
+      "line-spacing"
+    ],
+    "answer": "letter-spacing"
+  }
+]

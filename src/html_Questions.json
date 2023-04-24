@@ -1,0 +1,78 @@
+[
+  {
+    "quiz_name": "HTML",
+    "question": "Why We Use <br> Element",
+    "options": [
+      "To Make Text Bold",
+      "To Make Text Italic",
+      "To Add Breakline",
+      "To Add Horizontal Line"
+    ],
+    "answer": "To Add Breakline"
+  },
+  {
+    "question": "What does HTML stand for?",
+    "options": [
+      "High Text Markup Language",
+      "Hyper Text Markup Language",
+      "Hyper Tabular Markup Language",
+      "Hyperlinks and Text Markup Language"
+    ],
+    "answer": "Hyper Text Markup Language"
+  },
+  {
+    "question": "What is the correct HTML element for the largest heading?",
+    "options": ["<heading>", "<head>", "<h6>", "<h1>"],
+    "answer": "<h1>"
+  },
+  {
+    "question": "Which character is used to indicate an end tag?",
+    "options": ["/", "<", ">", "^"],
+    "answer": "/"
+  },
+  {
+    "question": "Which HTML attribute is used to define inline styles?",
+    "options": ["class", "style", "font", "styles"],
+    "answer": "style"
+  },
+  {
+    "question": "Which HTML tag is used to define a hyperlink?",
+    "options": ["<link>", "<href>", "<a>", "<p>"],
+    "answer": "<a>"
+  },
+  {
+    "question": "Which of the following is not an HTML5 semantic element?",
+    "options": ["<center>", "<article>", "<nav>", "<header>"],
+    "answer": "<center>"
+  },
+  {
+    "question": "What does the 'alt' attribute in an image tag do?",
+    "options": [
+      "Specifies the URL of the image",
+      "Sets the width of the image",
+      "Defines a description of the image",
+      "Defines the alignment of the image"
+    ],
+    "answer": "Defines a description of the image"
+  },
+  {
+    "question": "What is the correct HTML for creating a hyperlink?",
+    "options": [
+      "<a url='http://www.example.com'>Example</a>",
+      "<a>http://www.example.com</a>",
+      "<a src='http://www.example.com'>Example</a>",
+      "<a href='http://www.example.com'>Example</a>"
+    ],
+    "answer": "<a href='http://www.example.com'>Example</a>"
+  },
+  {
+    "question": "What is the correct HTML for inserting an image?",
+    "options": [
+      "<img src='image.jpg' alt='MyImage'>",
+      "<image href='image.jpg' alt='MyImage'>",
+      "<img href='image.jpg' alt='MyImage'>",
+      "<image src='image.jpg' alt='MyImage'>"
+    ],
+    "answer": "<img src='image.jpg' alt='MyImage'>"
+  }
+]

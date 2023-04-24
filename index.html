@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>- Quiz Application</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/normlize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="quiz-app">
+      <div class="quiz-info">
+        <div class="category">
+          <h3>Chosse Quiz:</h3>
+          <button id="html">HTML Quiz</button>
+          <button id="css">CSS Quiz</button>
+          <button id="js">JS Quiz</button>
+        </div>
+        <div class="count">
+          <h3>Questions Count:</h3>
+          <span></span>
+        </div>
+      </div>
+      <div class="quiz-area"></div>
+      <div class="answers-area"></div>
+      <button class="submit">Submit Answer</button>
+      <div class="bullets">
+        <div class="spans"></div>
+        <div class="countDown"></div>
+      </div>
+      <div class="results"></div>
+    </div>
+    <script src="./src/main.js"></script>
+  </body>
+</html>
