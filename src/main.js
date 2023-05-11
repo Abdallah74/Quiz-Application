@@ -196,10 +196,6 @@ function addQuestionData(obj, count) {
         input.type = "radio";
         input.id = `answer_${i}`;
         input.dataset.answer = object[j];
-        // Make 1st Input Checked
-        // if (i === 0) {
-        //   input.checked = true;
-        // }
         // Create Label
         const label = document.createElement("label");
         // Add Attribute
